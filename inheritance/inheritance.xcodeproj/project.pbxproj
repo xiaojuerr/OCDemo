@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		E4EAB7492C2D49F400F6FF77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAB7482C2D49F400F6FF77 /* main.m */; };
 		E4EAB7512C2D54BC00F6FF77 /* THEOShape.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAB7502C2D54BC00F6FF77 /* THEOShape.m */; };
+		E4EAB7542C2D5C5400F6FF77 /* THEOReactangle.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAB7532C2D5C5400F6FF77 /* THEOReactangle.m */; };
+		E4EAB7572C2D5D4A00F6FF77 /* THEOSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAB7562C2D5D4A00F6FF77 /* THEOSquare.m */; };
+		E4EAB75A2C2D5F3D00F6FF77 /* THEOCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAB7592C2D5F3D00F6FF77 /* THEOCircle.m */; };
+		E4EAB75D2C2D614600F6FF77 /* THEOTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAB75C2C2D614600F6FF77 /* THEOTriangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +32,14 @@
 		E4EAB7482C2D49F400F6FF77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4EAB74F2C2D54BC00F6FF77 /* THEOShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THEOShape.h; sourceTree = "<group>"; };
 		E4EAB7502C2D54BC00F6FF77 /* THEOShape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THEOShape.m; sourceTree = "<group>"; };
+		E4EAB7522C2D5C5400F6FF77 /* THEOReactangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THEOReactangle.h; sourceTree = "<group>"; };
+		E4EAB7532C2D5C5400F6FF77 /* THEOReactangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THEOReactangle.m; sourceTree = "<group>"; };
+		E4EAB7552C2D5D4A00F6FF77 /* THEOSquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THEOSquare.h; sourceTree = "<group>"; };
+		E4EAB7562C2D5D4A00F6FF77 /* THEOSquare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THEOSquare.m; sourceTree = "<group>"; };
+		E4EAB7582C2D5F3D00F6FF77 /* THEOCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THEOCircle.h; sourceTree = "<group>"; };
+		E4EAB7592C2D5F3D00F6FF77 /* THEOCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THEOCircle.m; sourceTree = "<group>"; };
+		E4EAB75B2C2D614600F6FF77 /* THEOTriangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THEOTriangle.h; sourceTree = "<group>"; };
+		E4EAB75C2C2D614600F6FF77 /* THEOTriangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THEOTriangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,14 @@
 				E4EAB7482C2D49F400F6FF77 /* main.m */,
 				E4EAB74F2C2D54BC00F6FF77 /* THEOShape.h */,
 				E4EAB7502C2D54BC00F6FF77 /* THEOShape.m */,
+				E4EAB7522C2D5C5400F6FF77 /* THEOReactangle.h */,
+				E4EAB7532C2D5C5400F6FF77 /* THEOReactangle.m */,
+				E4EAB7552C2D5D4A00F6FF77 /* THEOSquare.h */,
+				E4EAB7562C2D5D4A00F6FF77 /* THEOSquare.m */,
+				E4EAB7582C2D5F3D00F6FF77 /* THEOCircle.h */,
+				E4EAB7592C2D5F3D00F6FF77 /* THEOCircle.m */,
+				E4EAB75B2C2D614600F6FF77 /* THEOTriangle.h */,
+				E4EAB75C2C2D614600F6FF77 /* THEOTriangle.m */,
 			);
 			path = inheritance;
 			sourceTree = "<group>";
@@ -124,7 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4EAB75A2C2D5F3D00F6FF77 /* THEOCircle.m in Sources */,
+				E4EAB75D2C2D614600F6FF77 /* THEOTriangle.m in Sources */,
+				E4EAB7572C2D5D4A00F6FF77 /* THEOSquare.m in Sources */,
 				E4EAB7492C2D49F400F6FF77 /* main.m in Sources */,
+				E4EAB7542C2D5C5400F6FF77 /* THEOReactangle.m in Sources */,
 				E4EAB7512C2D54BC00F6FF77 /* THEOShape.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

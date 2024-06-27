@@ -19,8 +19,9 @@
 }
 -(id)initWithWigth:(int)_width andWithHeight:(int)_weight //定制的初始化行为
 {
+    //必须调用父类的初始化行为
     self = [super init];
-    if(self){
+    if(self){ //初始化自己的数据
         width  = _width;
         weight = _weight;
     }
