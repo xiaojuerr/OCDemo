@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E4EAB7492C2D49F400F6FF77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAB7482C2D49F400F6FF77 /* main.m */; };
+		E4EAB7512C2D54BC00F6FF77 /* THEOShape.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EAB7502C2D54BC00F6FF77 /* THEOShape.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E4EAB7452C2D49F400F6FF77 /* inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = inheritance; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EAB7482C2D49F400F6FF77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4EAB74F2C2D54BC00F6FF77 /* THEOShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THEOShape.h; sourceTree = "<group>"; };
+		E4EAB7502C2D54BC00F6FF77 /* THEOShape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THEOShape.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E4EAB7482C2D49F400F6FF77 /* main.m */,
+				E4EAB74F2C2D54BC00F6FF77 /* THEOShape.h */,
+				E4EAB7502C2D54BC00F6FF77 /* THEOShape.m */,
 			);
 			path = inheritance;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4EAB7492C2D49F400F6FF77 /* main.m in Sources */,
+				E4EAB7512C2D54BC00F6FF77 /* THEOShape.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

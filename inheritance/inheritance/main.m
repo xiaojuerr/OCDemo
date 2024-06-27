@@ -6,11 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "THEOShape.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        THEOShape *shape = [[THEOShape alloc]initWithWigth:20 andWithHeight:20];
+        NSLog(@"area is %d",[shape area]);
     }
     return 0;
 }
