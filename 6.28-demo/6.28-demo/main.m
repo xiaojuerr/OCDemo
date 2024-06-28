@@ -21,6 +21,7 @@ int main(int argc, const char * argv[]) {
         li.StuID = 1;
         zhang.MinitorDel = li;
         [zhang.MinitorDel notice];
+        [zhang.MinitorDel walk];
         THEOTeacher *master = [THEOTeacher new];
         master.name = @"Mike";
         master.JobID = 0;
