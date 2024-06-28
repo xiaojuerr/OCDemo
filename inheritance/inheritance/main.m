@@ -13,16 +13,15 @@
 #import "THEOTriangle.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        THEOShape *shape = [[THEOShape alloc]initWithWigth:20 andWithHeight:20];
-        NSLog(@"area is %d",[shape area]);
-        THEOReactangle *rect = [[THEOReactangle alloc]initWithWigth:20 andWithHeight:30];
-        NSLog(@"Rect Area is %d",[rect area]);
-        THEOSquare *sq = [[THEOSquare alloc]initWithSide:5];
-        NSLog(@"Square Area is %d",[sq area]);
-        THEOCircle *cir = [[THEOCircle alloc]initWithRad:10];
-        NSLog(@"Circle Area is %.0lf",[cir area]);
-        THEOTriangle *tri = [[THEOTriangle alloc]initWithBottom:5 ansWithHeight:5];
-        NSLog(@"Triangle Area is %lf",[tri area]);
+        //THEOSquare *sq = [[THEOSquare alloc]initWithSide:10];
+        id shape = [[THEOCircle alloc]initWithRad:3];
+        SEL sel = @selector(area);//可以运行一个行为，一类行为的标识
+        if([shape respondsToSelector:sel]){ //判断某个对象有没有相应的行为
+            NSLog(@"YES");
+            
+        }else NSLog(@"NO");
+        
+        //NSLog(@"Square Area is %g",[shape area]);
     }
     return 0;
 }

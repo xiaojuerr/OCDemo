@@ -10,9 +10,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface THEOCircle : THEOShape
-{
-    double pi ;
-}
 -(id)initWithRad:(int)_rad;
 -(double)area;
 @end
