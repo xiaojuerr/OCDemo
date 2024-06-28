@@ -13,7 +13,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         THEOTeacher *zhang = [THEOTeacher new];
-        zhang.name = @"ZhangSan";
+        zhang.name = @"ZhangSan1";
         zhang.JobID = 1;
         [zhang beginClass];
         THEOMonitor *li = [THEOMonitor new];
