@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E4F8C5AB2C2E8EC400A0AAD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F8C5AA2C2E8EC400A0AAD6 /* main.m */; };
 		E4F8C5B32C2E8EF200A0AAD6 /* THEOBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F8C5B22C2E8EF200A0AAD6 /* THEOBoss.m */; };
+		E4F8C5B72C2E91F300A0AAD6 /* THEOSec.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F8C5B62C2E91F300A0AAD6 /* THEOSec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,9 @@
 		E4F8C5AA2C2E8EC400A0AAD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4F8C5B12C2E8EF200A0AAD6 /* THEOBoss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THEOBoss.h; sourceTree = "<group>"; };
 		E4F8C5B22C2E8EF200A0AAD6 /* THEOBoss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THEOBoss.m; sourceTree = "<group>"; };
+		E4F8C5B42C2E914A00A0AAD6 /* SecDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecDelegate.h; sourceTree = "<group>"; };
+		E4F8C5B52C2E91F300A0AAD6 /* THEOSec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THEOSec.h; sourceTree = "<group>"; };
+		E4F8C5B62C2E91F300A0AAD6 /* THEOSec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THEOSec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,9 @@
 				E4F8C5AA2C2E8EC400A0AAD6 /* main.m */,
 				E4F8C5B12C2E8EF200A0AAD6 /* THEOBoss.h */,
 				E4F8C5B22C2E8EF200A0AAD6 /* THEOBoss.m */,
+				E4F8C5B42C2E914A00A0AAD6 /* SecDelegate.h */,
+				E4F8C5B52C2E91F300A0AAD6 /* THEOSec.h */,
+				E4F8C5B62C2E91F300A0AAD6 /* THEOSec.m */,
 			);
 			path = THEOdelegate;
 			sourceTree = "<group>";
@@ -125,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4F8C5B32C2E8EF200A0AAD6 /* THEOBoss.m in Sources */,
+				E4F8C5B72C2E91F300A0AAD6 /* THEOSec.m in Sources */,
 				E4F8C5AB2C2E8EC400A0AAD6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

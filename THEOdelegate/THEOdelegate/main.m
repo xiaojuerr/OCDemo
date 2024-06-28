@@ -10,9 +10,12 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         THEOBoss *liu = [THEOBoss new];
-        liu.name = @"mike";
-        [liu talk];
-        [liu call];
+        THEOSec *zhang = [THEOSec new];
+        liu.name = @"Mike";
+        zhang.name = @"Linda";
+        liu.sec = zhang;
+        [liu.sec talk];
+        [liu.sec call];
         [liu salary];
     }
     return 0;
