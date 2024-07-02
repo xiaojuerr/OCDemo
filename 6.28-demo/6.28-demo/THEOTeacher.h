@@ -6,12 +6,12 @@
 //
 
 #import "THEOPerson.h"
-#import "THEOMonitor.h"
+#import "THEOMonitorDel.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface THEOTeacher : THEOPerson
 @property int JobID;
-@property THEOMonitor *MinitorDel;
+@property (nonatomic , weak) id<THEOMonitorDel> monitor;
 -(void)beginClass;
 @end
 

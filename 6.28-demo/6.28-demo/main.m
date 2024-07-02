@@ -17,11 +17,13 @@ int main(int argc, const char * argv[]) {
         zhang.JobID = 1;
         [zhang beginClass];
         THEOMonitor *li = [THEOMonitor new];
-        li.name = @"LiSi";
+        li.name = @"Lisi";
         li.StuID = 1;
-        zhang.MinitorDel = li;
-        [zhang.MinitorDel notice];
-        [zhang.MinitorDel walk];
+        
+        zhang.monitor = li;
+        [zhang.monitor notice];
+        [zhang.monitor standup];
+        
         THEOTeacher *master = [THEOTeacher new];
         master.name = @"Mike";
         master.JobID = 0;
