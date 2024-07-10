@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E490AEC72C34FEE90067393C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E490AEC62C34FEE90067393C /* main.m */; };
+		E490AECF2C35061C0067393C /* Publisher.m in Sources */ = {isa = PBXBuildFile; fileRef = E490AECE2C35061C0067393C /* Publisher.m */; };
+		E490AED22C350A5C0067393C /* Subscriber1.m in Sources */ = {isa = PBXBuildFile; fileRef = E490AED12C350A5C0067393C /* Subscriber1.m */; };
+		E490AED52C3520950067393C /* Subscriber2.m in Sources */ = {isa = PBXBuildFile; fileRef = E490AED42C3520950067393C /* Subscriber2.m */; };
+		E490AED82C3524510067393C /* Publisher1.m in Sources */ = {isa = PBXBuildFile; fileRef = E490AED72C3524510067393C /* Publisher1.m */; };
+		E490AEDB2C3525930067393C /* Subscriber3.m in Sources */ = {isa = PBXBuildFile; fileRef = E490AEDA2C3525930067393C /* Subscriber3.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E490AEC12C34FEE90067393C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E490AEC32C34FEE90067393C /* NSNotificationCenter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSNotificationCenter; sourceTree = BUILT_PRODUCTS_DIR; };
+		E490AEC62C34FEE90067393C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E490AECD2C35061C0067393C /* Publisher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Publisher.h; sourceTree = "<group>"; };
+		E490AECE2C35061C0067393C /* Publisher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Publisher.m; sourceTree = "<group>"; };
+		E490AED02C350A5C0067393C /* Subscriber1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subscriber1.h; sourceTree = "<group>"; };
+		E490AED12C350A5C0067393C /* Subscriber1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subscriber1.m; sourceTree = "<group>"; };
+		E490AED32C3520950067393C /* Subscriber2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subscriber2.h; sourceTree = "<group>"; };
+		E490AED42C3520950067393C /* Subscriber2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subscriber2.m; sourceTree = "<group>"; };
+		E490AED62C3524510067393C /* Publisher1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Publisher1.h; sourceTree = "<group>"; };
+		E490AED72C3524510067393C /* Publisher1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Publisher1.m; sourceTree = "<group>"; };
+		E490AED92C3525930067393C /* Subscriber3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subscriber3.h; sourceTree = "<group>"; };
+		E490AEDA2C3525930067393C /* Subscriber3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subscriber3.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E490AEC02C34FEE90067393C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E490AEBA2C34FEE90067393C = {
+			isa = PBXGroup;
+			children = (
+				E490AEC52C34FEE90067393C /* NSNotificationCenter */,
+				E490AEC42C34FEE90067393C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E490AEC42C34FEE90067393C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E490AEC32C34FEE90067393C /* NSNotificationCenter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E490AEC52C34FEE90067393C /* NSNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				E490AEC62C34FEE90067393C /* main.m */,
+				E490AECD2C35061C0067393C /* Publisher.h */,
+				E490AECE2C35061C0067393C /* Publisher.m */,
+				E490AED02C350A5C0067393C /* Subscriber1.h */,
+				E490AED12C350A5C0067393C /* Subscriber1.m */,
+				E490AED32C3520950067393C /* Subscriber2.h */,
+				E490AED42C3520950067393C /* Subscriber2.m */,
+				E490AED62C3524510067393C /* Publisher1.h */,
+				E490AED72C3524510067393C /* Publisher1.m */,
+				E490AED92C3525930067393C /* Subscriber3.h */,
+				E490AEDA2C3525930067393C /* Subscriber3.m */,
+			);
+			path = NSNotificationCenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E490AEC22C34FEE90067393C /* NSNotificationCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E490AECA2C34FEE90067393C /* Build configuration list for PBXNativeTarget "NSNotificationCenter" */;
+			buildPhases = (
+				E490AEBF2C34FEE90067393C /* Sources */,
+				E490AEC02C34FEE90067393C /* Frameworks */,
+				E490AEC12C34FEE90067393C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSNotificationCenter;
+			productName = NSNotificationCenter;
+			productReference = E490AEC32C34FEE90067393C /* NSNotificationCenter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E490AEBB2C34FEE90067393C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					E490AEC22C34FEE90067393C = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = E490AEBE2C34FEE90067393C /* Build configuration list for PBXProject "NSNotificationCenter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E490AEBA2C34FEE90067393C;
+			productRefGroup = E490AEC42C34FEE90067393C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E490AEC22C34FEE90067393C /* NSNotificationCenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E490AEBF2C34FEE90067393C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E490AECF2C35061C0067393C /* Publisher.m in Sources */,
+				E490AED82C3524510067393C /* Publisher1.m in Sources */,
+				E490AED22C350A5C0067393C /* Subscriber1.m in Sources */,
+				E490AED52C3520950067393C /* Subscriber2.m in Sources */,
+				E490AEC72C34FEE90067393C /* main.m in Sources */,
+				E490AEDB2C3525930067393C /* Subscriber3.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E490AEC82C34FEE90067393C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E490AEC92C34FEE90067393C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E490AECB2C34FEE90067393C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E490AECC2C34FEE90067393C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E490AEBE2C34FEE90067393C /* Build configuration list for PBXProject "NSNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E490AEC82C34FEE90067393C /* Debug */,
+				E490AEC92C34FEE90067393C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E490AECA2C34FEE90067393C /* Build configuration list for PBXNativeTarget "NSNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E490AECB2C34FEE90067393C /* Debug */,
+				E490AECC2C34FEE90067393C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E490AEBB2C34FEE90067393C /* Project object */;
+}
