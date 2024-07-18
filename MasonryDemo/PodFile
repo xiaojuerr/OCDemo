@@ -1,0 +1,6 @@
+platform:ios, '17.2'
+ 
+target 'MasonryDemo' do
+  pod 'Masonry'
+end
+
