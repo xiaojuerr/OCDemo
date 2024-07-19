@@ -1,0 +1,5 @@
+platform :ios,'17.2'
+target 'LoginPageDemo2' do
+pod 'Masonry','~>1.0.1'
+end
+
