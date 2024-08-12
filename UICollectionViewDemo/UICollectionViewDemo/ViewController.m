@@ -7,6 +7,8 @@
 
 #import "ViewController.h"
 #import "CustomCollectionViewFlowLayout.h"
+#import "HeaderView.h"
+#import "FooterView.h"
 @interface ViewController ()
 
 @end

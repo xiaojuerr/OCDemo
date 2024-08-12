@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FD4864FF-12A6-4BE6-AE39-33628288FFE0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4BA203B-5488-46DE-A047-4288FD76D2C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyChannel-V3/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
+            landmarkName = "-selectAllCells"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D4BA203B-5488-46DE-A047-4288FD76D2C1 - a27319ddd40d1e07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController selectAllCells]"
+                  moduleName = "MyChannel-V3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/theo/Desktop/OC/MyChannel-V3/MyChannel-V3/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "D4BA203B-5488-46DE-A047-4288FD76D2C1 - a27319ddd40d1e24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController selectAllCells]"
+                  moduleName = "MyChannel-V3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/theo/Desktop/OC/MyChannel-V3/MyChannel-V3/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A1D191C-6AC4-4939-98E4-44062DD6C7F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyChannel-V3/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "-selectAllCells"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5A1D191C-6AC4-4939-98E4-44062DD6C7F4 - a27319ddd40d1e66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController selectAllCells]"
+                  moduleName = "MyChannel-V3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/theo/Desktop/OC/MyChannel-V3/MyChannel-V3/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "204"
+                  endingLineNumber = "204"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "5A1D191C-6AC4-4939-98E4-44062DD6C7F4 - a27319ddd40d1e66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController selectAllCells]"
+                  moduleName = "MyChannel-V3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/theo/Desktop/OC/MyChannel-V3/MyChannel-V3/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "204"
+                  endingLineNumber = "204"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C812744-B26F-4CC0-8000-4F7F5B84484A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyChannel-V3/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "-initMyChannelDataManager"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81BB81A2-89B4-4DE0-9148-F563044CD7DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyChannel-V3/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "-selectAllCells"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "81BB81A2-89B4-4DE0-9148-F563044CD7DE - a27319ddd40d1c37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController selectAllCells]"
+                  moduleName = "MyChannel-V3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/theo/Desktop/OC/MyChannel-V3/MyChannel-V3/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "187"
+                  endingLineNumber = "187"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "81BB81A2-89B4-4DE0-9148-F563044CD7DE - a27319ddd40d1c37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController selectAllCells]"
+                  moduleName = "MyChannel-V3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/theo/Desktop/OC/MyChannel-V3/MyChannel-V3/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "187"
+                  endingLineNumber = "187"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B78D137-6794-4650-B47C-67A9C8BB1209"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyChannel-V3/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "-collectionView:cellForItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AE89E2F-5208-4171-BD61-C59897C622C5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyChannel-V3/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "-configureCell:withIndexPath:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5AE89E2F-5208-4171-BD61-C59897C622C5 - 5ef29cd5ee4d76aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController configureCell:withIndexPath:]"
+                  moduleName = "MyChannel-V3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/theo/Desktop/OC/MyChannel-V3/MyChannel-V3/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "824">
+               </Location>
+               <Location
+                  uuid = "5AE89E2F-5208-4171-BD61-C59897C622C5 - 5ef29cd5ee4d76aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController configureCell:withIndexPath:]"
+                  moduleName = "MyChannel-V3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/theo/Desktop/OC/MyChannel-V3/MyChannel-V3/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "800">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1B9C4E7-A4A3-4A3A-B7A3-678012B40412"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyChannel-V3/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "-configureCell:withIndexPath:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C1B9C4E7-A4A3-4A3A-B7A3-678012B40412 - 5ef29cd5ee4d7794"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController configureCell:withIndexPath:]"
+                  moduleName = "MyChannel-V3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/theo/Desktop/OC/MyChannel-V3/MyChannel-V3/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "C1B9C4E7-A4A3-4A3A-B7A3-678012B40412 - 5ef29cd5ee4d7794"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController configureCell:withIndexPath:]"
+                  moduleName = "MyChannel-V3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/theo/Desktop/OC/MyChannel-V3/MyChannel-V3/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A14FE417-4919-4AE1-B5FE-B2D6648BEE47"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyChannel-V3/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
+            landmarkName = "-handleLongPress:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A14FE417-4919-4AE1-B5FE-B2D6648BEE47 - 37c666f5071959e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController handleLongPress:]"
+                  moduleName = "MyChannel-V3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/theo/Desktop/OC/MyChannel-V3/MyChannel-V3/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "209"
+                  endingLineNumber = "209"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "A14FE417-4919-4AE1-B5FE-B2D6648BEE47 - 37c666f5071959e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController handleLongPress:]"
+                  moduleName = "MyChannel-V3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/theo/Desktop/OC/MyChannel-V3/MyChannel-V3/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "209"
+                  endingLineNumber = "209"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

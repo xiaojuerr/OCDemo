@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E452D16C2C58880A00F61D41 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E452D16B2C58880A00F61D41 /* HeaderView.m */; };
+		E452D16F2C58882200F61D41 /* FooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E452D16E2C58882200F61D41 /* FooterView.m */; };
 		E4B8A84E2C47AE4B000049E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8A84D2C47AE4B000049E6 /* AppDelegate.m */; };
 		E4B8A8512C47AE4B000049E6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8A8502C47AE4B000049E6 /* SceneDelegate.m */; };
 		E4B8A8542C47AE4B000049E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8A8532C47AE4B000049E6 /* ViewController.m */; };
@@ -38,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E452D16A2C58880A00F61D41 /* HeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		E452D16B2C58880A00F61D41 /* HeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		E452D16D2C58882200F61D41 /* FooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FooterView.h; sourceTree = "<group>"; };
+		E452D16E2C58882200F61D41 /* FooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FooterView.m; sourceTree = "<group>"; };
 		E4B8A8492C47AE4B000049E6 /* UICollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B8A84C2C47AE4B000049E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4B8A84D2C47AE4B000049E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -120,6 +126,10 @@
 				E4B8A85E2C47AE4C000049E6 /* main.m */,
 				E4B8A8812C47AE85000049E6 /* CustomCollectionViewFlowLayout.h */,
 				E4B8A8822C47AE85000049E6 /* CustomCollectionViewFlowLayout.m */,
+				E452D16A2C58880A00F61D41 /* HeaderView.h */,
+				E452D16B2C58880A00F61D41 /* HeaderView.m */,
+				E452D16D2C58882200F61D41 /* FooterView.h */,
+				E452D16E2C58882200F61D41 /* FooterView.m */,
 			);
 			path = UICollectionViewDemo;
 			sourceTree = "<group>";
@@ -272,6 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B8A8542C47AE4B000049E6 /* ViewController.m in Sources */,
+				E452D16F2C58882200F61D41 /* FooterView.m in Sources */,
+				E452D16C2C58880A00F61D41 /* HeaderView.m in Sources */,
 				E4B8A84E2C47AE4B000049E6 /* AppDelegate.m in Sources */,
 				E4B8A85F2C47AE4C000049E6 /* main.m in Sources */,
 				E4B8A8512C47AE4B000049E6 /* SceneDelegate.m in Sources */,
