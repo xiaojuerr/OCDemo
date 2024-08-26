@@ -199,7 +199,6 @@ static const char *IndexPathKey = "IndexPathKey";
 //    }
     [_collectionView reloadData];
     [self updateCells];
-   
 }
 
 

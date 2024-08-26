@@ -286,8 +286,8 @@
             filePath = "MyChannel-V3/ViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "209"
-            endingLineNumber = "209"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
             landmarkName = "-handleLongPress:"
             landmarkType = "7">
             <Locations>
