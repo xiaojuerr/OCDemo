@@ -70,7 +70,6 @@
 		E47D61EA2C788AC8001648CD /* GradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
 		E47D61EC2C7C2DB9001648CD /* BubbleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleModel.h; sourceTree = "<group>"; };
 		E47D61ED2C7C2DB9001648CD /* BubbleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleModel.m; sourceTree = "<group>"; };
-		E47D61EF2C7C75B1001648CD /* MyBubbleViewModelDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBubbleViewModelDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +159,6 @@
 				E47D61ED2C7C2DB9001648CD /* BubbleModel.m */,
 				E47D61E92C788AC8001648CD /* GradientView.h */,
 				E47D61EA2C788AC8001648CD /* GradientView.m */,
-				E47D61EF2C7C75B1001648CD /* MyBubbleViewModelDelegate.h */,
 			);
 			path = WindowDemo;
 			sourceTree = "<group>";

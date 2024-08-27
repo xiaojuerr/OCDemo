@@ -11,8 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BubbleModel : NSObject
 @property (nonatomic, assign) CGFloat borderLineSize;
-@property (nonatomic, assign) CGFloat borderWidth;
-@property (nonatomic, assign) CGFloat borderHeight;
+@property (nonatomic, assign) CGFloat width;
+@property (nonatomic, assign) CGFloat height;
+@property (nonatomic, assign) CGFloat trianglePosition;
 @property (nonatomic, assign) CGFloat triangleHeight;
 @property (nonatomic, assign) CGFloat triangleWidth;
 @property (nonatomic, strong) NSString *title;
@@ -20,8 +21,10 @@ NS_ASSUME_NONNULL_BEGIN
 //modify 颜色参数
 @property (nonatomic, strong) UIColor *borderLineColor;
 @property (nonatomic, strong) UIColor *contentColor;
+@property (nonatomic, copy) NSArray<UIColor *> *borderLineColors;
+@property (nonatomic, copy) NSArray<UIColor *> *contentColors;
 
--(instancetype)initWithBorderLineSize:(CGFloat)borderLineSize borderWidth:(CGFloat)borderWidth borderHeight:(CGFloat)borderHeight triangleHeight:(CGFloat)triangleHeight triangleWidth:(CGFloat)triangleWidth title:(NSString *)title cornerRadius:(CGFloat)cornerRadius borderLineColor:(UIColor *)borderLineColor contentColor:(UIColor *)contentColor;
+- (instancetype)initWithBorderLineSize:(CGFloat)borderLineSize width:(CGFloat)width height:(CGFloat)height trianglePosition:(CGFloat)trianglePosition triangleHeight:(CGFloat)triangleHeight triangleWidth:(CGFloat)triangleWidth title:(NSString *)title cornerRadius:(CGFloat)cornerRadius borderLineColor:(UIColor *)borderLineColor contentColor:(UIColor *)contentColor;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -62,9 +62,9 @@
             filePath = "WindowDemo/CustomBubbleView.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
-            landmarkName = "-setupLayer"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "-bindViewModel:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -78,25 +78,9 @@
             filePath = "WindowDemo/CustomBubbleView.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "185"
-            endingLineNumber = "185"
-            landmarkName = "-createPath"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4D632E61-56B0-48DE-944D-5E8932005535"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WindowDemo/ViewController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "-changeView"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "-bindViewModel:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -110,41 +94,25 @@
             filePath = "WindowDemo/BubbleViewModel.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "-updateBorderSize:borderHeight:"
-            landmarkType = "7">
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "BubbleViewModel"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "AB623800-2249-4D9B-9A61-443F643499E2"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WindowDemo/BubbleViewModel.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "-updateBorderSize:borderHeight:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C164448D-A1FE-4170-8580-A7133581B515"
-            shouldBeEnabled = "Yes"
+            uuid = "EAB06B11-2D73-46EB-A6C5-5B08C937A629"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WindowDemo/CustomBubbleView.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "-updateBubbleView"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "-bindViewModel:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

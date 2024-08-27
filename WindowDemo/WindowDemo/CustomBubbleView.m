@@ -7,10 +7,12 @@
 #import "CustomBubbleView.h"
 #import "Masonry/Masonry.h"
 #import "BubbleViewModel.h"
+
+#define DESIGN_WIDTH 750.0
+#define LAZSAO750(value) (value * (UIScreen.mainScreen.bounds.size.width / DESIGN_WIDTH))
 @interface CustomBubbleView ()
-@property (nonatomic, strong) UIView *mainView;
 @property (nonatomic, strong) UILabel *label;
-@property (nonatomic, strong) UIImageView *rightImageView;
+@property (nonatomic, strong) UIImageView *leftImageView;
 @property (nonatomic, strong) CAShapeLayer *shapeLayer;
 @property (nonatomic, strong) CAGradientLayer *gradientLayer;
 @property (nonatomic, strong) CAShapeLayer *borderLayer;
@@ -26,23 +28,14 @@
     return self;
 }
 
-- (void)updateBubbleView{
-    self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y,
-                                self.viewModel.model.borderWidth,
-                                self.viewModel.model.borderHeight);
-    [self setupLayout];
-    [self setNeedsLayout];
-}
-
 - (void)setupView{
-    self.mainView = [UIView new];
-    [self addSubview: self.mainView];
+
     
     self.label = [UILabel new];
     [self addSubview:self.label];
     
-    self.rightImageView = [[UIImageView alloc] init];
-    [self addSubview:self.rightImageView];
+    self.leftImageView = [[UIImageView alloc] init];
+    [self addSubview:self.leftImageView];
     
     self.shapeLayer = [CAShapeLayer layer];
     self.shapeLayer.fillColor = [UIColor whiteColor].CGColor; // 填充颜色
@@ -61,9 +54,7 @@
 
 - (void)bindViewModel:(BubbleViewModel *)viewModel {
     _viewModel = viewModel;
-    if([self conformsToProtocol:@protocol(MyBubbleViewModelDelegate)]){
-        [_viewModel setDelegate:self];
-    }
+    
     self.label.text = _viewModel.model.title;
     self.label.textColor = [UIColor blackColor];
     self.label.font = [UIFont fontWithName:@"Euclid Circular A" size:10];
@@ -73,7 +64,8 @@
     
     self.borderLayer.strokeColor = self.viewModel.model.borderLineColor.CGColor;
     self.borderLayer.lineWidth = self.viewModel.model.borderLineSize;
-    self.rightImageView.image = [UIImage imageNamed:@"Image-1613"];
+    self.leftImageView.image = [UIImage imageNamed:@"Image-1613"];
+    
 }
 
 - (void)layoutSubviews{
@@ -105,31 +97,20 @@
 
 //modify 比例
 -(void)setupLayout {
-    CGRect screenSize = [UIScreen mainScreen].bounds;
-    CGFloat screenWidth = CGRectGetWidth(screenSize);
-//    [self mas_remakeConstraints:^(MASConstraintMaker *make) {
-//        make.width.equalTo(@(self.viewModel.model.borderWidth));
-//        make.height.equalTo(@(self.viewModel.model.borderHeight));
-//        make.centerX.equalTo(@(screenWidth / 2));
-//        make.bottom.equalTo(@(screenHeight));
-//    }];
-    [self.mainView mas_remakeConstraints:^(MASConstraintMaker *make) {
-        make.left.top.equalTo(self).offset(12.0 * (screenWidth / 750.0));
-        make.width.equalTo(self).multipliedBy(462.0/510);
-        make.height.equalTo(self).multipliedBy(78.0/112);
+    [self.leftImageView mas_remakeConstraints:^(MASConstraintMaker *make) {
+        make.height.equalTo(self.mas_height).offset(-LAZSAO750(12.0 + 10.0) - self.viewModel.model.triangleHeight);
+        make.width.equalTo(self.leftImageView.mas_height);
+        make.left.equalTo(self).offset(LAZSAO750(12.0));
+        make.top.equalTo(self).offset(LAZSAO750(12));
+        //make.centerY.equalTo(self);
     }];
     
     [self.label mas_remakeConstraints:^(MASConstraintMaker *make) {
-        make.width.equalTo(self.mainView).multipliedBy(372.0 / 462.0);
-        make.height.equalTo(self.mainView).multipliedBy(62.0 / 78.0);
-        make.right.equalTo(self.mainView);
-        make.centerY.equalTo(self.mainView);
-    }];
-    
-    [self.rightImageView mas_remakeConstraints:^(MASConstraintMaker *make) {
-        make.width.height.equalTo(self.mainView.mas_height);
-        make.left.equalTo(self.mainView);
-        make.centerY.equalTo(self.mainView);
+        make.right.equalTo(self).offset(LAZSAO750(-36.0));
+        make.left.equalTo(self.leftImageView.mas_right).offset(LAZSAO750(12.0));
+        make.top.equalTo(self.leftImageView).offset(LAZSAO750(8.0));
+        make.bottom.equalTo(self.leftImageView).offset(-LAZSAO750((8.0)));
+        make.centerY.equalTo(self.leftImageView);
     }];
 }
 
@@ -139,7 +120,7 @@
     CGFloat cornerRadius = self.viewModel.model.cornerRadius;
     CGFloat triangleHeight = self.viewModel.model.triangleHeight;
     CGFloat triangleWidth = self.viewModel.model.triangleWidth;
-    CGFloat triangleStartX =cornerRadius + (self.frame.size.width - 2 * cornerRadius - triangleWidth) / 2;
+    CGFloat trianglePosition = self.viewModel.model.trianglePosition;
     
     [path moveToPoint:CGPointMake(cornerRadius, 0)];
     
@@ -161,10 +142,10 @@
                       endAngle:M_PI / 2
                      clockwise:YES];
     // 底边
-    [path addLineToPoint:CGPointMake(triangleStartX + triangleWidth, self.bounds.size.height - triangleHeight)];
+    [path addLineToPoint:CGPointMake(trianglePosition + triangleWidth, self.bounds.size.height - triangleHeight)];
     // 三角
-    [path addLineToPoint:CGPointMake(triangleStartX + triangleWidth / 2, self.bounds.size.height)];
-    [path addLineToPoint:CGPointMake(triangleStartX, self.bounds.size.height - triangleHeight)];
+    [path addLineToPoint:CGPointMake(trianglePosition + triangleWidth / 2, self.bounds.size.height)];
+    [path addLineToPoint:CGPointMake(trianglePosition, self.bounds.size.height - triangleHeight)];
     [path addLineToPoint:CGPointMake(cornerRadius, self.bounds.size.height - triangleHeight)];
     // 左下角
     [path addArcWithCenter:CGPointMake(cornerRadius, self.bounds.size.height - cornerRadius - triangleHeight)
