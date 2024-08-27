@@ -27,16 +27,35 @@
     CustomBubbleView *bubbleView = [[CustomBubbleView alloc] initWithFrame:(CGRectZero)];
     self.bubbleView = bubbleView;
     [self.view addSubview:self.bubbleView];
-    
-    BubbleModel *model = [[BubbleModel alloc] initWithBorderLineSize:LAZSAO750(2.0) width: LAZSAO750(510.0) height:LAZSAO750(112.0)  trianglePosition:(LAZSAO750(100.0)) triangleHeight:LAZSAO750(12.0) triangleWidth:LAZSAO750(26.0) title:@"Great to see you! Chat with me and find the best deals!  💰🚀 " cornerRadius:LAZSAO750(18.0) borderLineColor:[UIColor colorWithRed:139/255.0 green:187/255.0 blue:255/255.0 alpha:1.0] contentColor:[UIColor colorWithRed:139/255.0 green:187/255.0 blue:255/255.0 alpha:1.0]];
+    NSArray<UIColor *> *colors = @[
+        (__bridge id)[UIColor colorWithRed:255/255.0 green:243/255.0 blue:251/255.0 alpha:1.0].CGColor,      // rgba(26, 140, 255, 0)
+        (__bridge id)[UIColor colorWithRed:255/255.0 green:242/255.0 blue:248/255.0 alpha:1.0].CGColor,        // rgba(26, 140, 255, 1)
+        (__bridge id)[UIColor colorWithRed:255/255.0 green:242/255.0 blue:248/255.0 alpha:1.0].CGColor,       // rgba(255, 115, 255, 0.8)
+        (__bridge id)[UIColor colorWithRed:255/255.0 green:229/255.0 blue:238/255.0 alpha:1.0].CGColor       // rgba(255, 115, 255, 0)
+    ];
+    NSArray *titleExtend = @[
+        @{
+            @"bold": @"true",
+            @"color": @"#595F6D",
+            @"text": @"Fresh arrivals! Buy 3 get ",
+            @"textSize": @11
+        },
+        @{
+            @"bold": @"true",
+            @"color": @"#FE4960",
+            @"text": @"20% off",
+            @"textSize": @11
+        },
+        @{
+            @"bold": @"true",
+            @"color": @"#595F6D",
+            @"text": @" with free shipping!",
+            @"textSize": @11
+        }
+    ];
+    BubbleModel *model = [[BubbleModel alloc] initWithBorderLineSize:LAZSAO750(2.0) width: LAZSAO750(510.0) height:LAZSAO750(112.0)  trianglePosition:(LAZSAO750(100.0)) triangleHeight:LAZSAO750(12.0) triangleWidth:LAZSAO750(26.0) titleExtend:titleExtend cornerRadius:LAZSAO750(18.0) borderLineColor:[UIColor colorWithRed:255/255.0 green:198/255.0 blue:221/255.0 alpha:1.0] contentColors:colors];
     
     BubbleViewModel *viewModel = [[BubbleViewModel alloc] initWithModel:model];
-//    [viewModel.model setContentColors:@[
-//        (__bridge id)[UIColor colorWithRed:255/255.0 green:115/255.0 blue:255/255.0 alpha:0.6].CGColor,       // rgba(255, 115, 255, 0.8)
-//        (__bridge id)[UIColor colorWithRed:255/255.0 green:115/255.0 blue:255/255.0 alpha:0.4].CGColor,       // rgba(255, 115, 255, 0)
-//        (__bridge id)[UIColor colorWithRed:26/255.0 green:140/255.0 blue:255/255.0 alpha:0.6].CGColor,        // rgba(26, 140, 255, 1)
-//        (__bridge id)[UIColor colorWithRed:26/255.0 green:140/255.0 blue:255/255.0 alpha:0.4].CGColor       // rgba(26, 140, 255, 0)
-//    ]];
     [self.bubbleView bindViewModel:viewModel];
     
     [self.bubbleView mas_makeConstraints:^(MASConstraintMaker *make) {

@@ -16,7 +16,7 @@
     // Drawing code
 }
 */
--(instancetype)initWithBorderLineSize:(CGFloat)borderLineSize width:(CGFloat)width height:(CGFloat)height trianglePosition:(CGFloat)trianglePosition triangleHeight:(CGFloat)triangleHeight triangleWidth:(CGFloat)triangleWidth title:(NSString *)title cornerRadius:(CGFloat)cornerRadius borderLineColor:(UIColor *)borderLineColor contentColor:(UIColor *)contentColor{
+-(instancetype)initWithBorderLineSize:(CGFloat)borderLineSize width:(CGFloat)width height:(CGFloat)height trianglePosition:(CGFloat)trianglePosition triangleHeight:(CGFloat)triangleHeight triangleWidth:(CGFloat)triangleWidth titleExtend:(NSArray *)titleExtend cornerRadius:(CGFloat)cornerRadius borderLineColor:(UIColor *)borderLineColor contentColors:(NSArray<UIColor *> *)contentColors{
     self = [super init];
     if(self){
         self.borderLineSize = borderLineSize;
@@ -25,17 +25,17 @@
         self.trianglePosition = trianglePosition;
         self.triangleWidth = triangleWidth;
         self.triangleHeight = triangleHeight;
-        self.title = title;
+        self.titleExtend = titleExtend;
         self.cornerRadius = cornerRadius;
         self.borderLineColor = borderLineColor;
-        self.contentColor = contentColor;
+        self.contentColors = contentColors;
     }
     return self;
 }
 - (void)setContentColors:(NSArray<UIColor *> *)contentColors{
-    self.contentColors = contentColors;
+    _contentColors = contentColors;
 }
 - (void)setBorderLineColors:(NSArray<UIColor *> *)borderLineColors{
-    self.borderLineColors = borderLineColors;
+    _borderLineColors = borderLineColors;
 }
 @end

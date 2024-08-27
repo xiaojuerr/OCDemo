@@ -22,6 +22,7 @@
 		E47D61E82C78635F001648CD /* BubbleViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E47D61E72C78635F001648CD /* BubbleViewModel.m */; };
 		E47D61EB2C788AC8001648CD /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = E47D61EA2C788AC8001648CD /* GradientView.m */; };
 		E47D61EE2C7C2DB9001648CD /* BubbleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E47D61ED2C7C2DB9001648CD /* BubbleModel.m */; };
+		E47D61F22C7DAB48001648CD /* UIColor+LAUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E47D61F12C7DAB48001648CD /* UIColor+LAUIKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		E47D61EA2C788AC8001648CD /* GradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
 		E47D61EC2C7C2DB9001648CD /* BubbleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleModel.h; sourceTree = "<group>"; };
 		E47D61ED2C7C2DB9001648CD /* BubbleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleModel.m; sourceTree = "<group>"; };
+		E47D61F02C7DAB48001648CD /* UIColor+LAUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+LAUIKit.h"; sourceTree = "<group>"; };
+		E47D61F12C7DAB48001648CD /* UIColor+LAUIKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LAUIKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +162,8 @@
 				E47D61ED2C7C2DB9001648CD /* BubbleModel.m */,
 				E47D61E92C788AC8001648CD /* GradientView.h */,
 				E47D61EA2C788AC8001648CD /* GradientView.m */,
+				E47D61F02C7DAB48001648CD /* UIColor+LAUIKit.h */,
+				E47D61F12C7DAB48001648CD /* UIColor+LAUIKit.m */,
 			);
 			path = WindowDemo;
 			sourceTree = "<group>";
@@ -340,6 +345,7 @@
 				E47D3CC72C775007001648CD /* ViewController.m in Sources */,
 				E47D3CC12C775007001648CD /* AppDelegate.m in Sources */,
 				E47D3CD22C775008001648CD /* main.m in Sources */,
+				E47D61F22C7DAB48001648CD /* UIColor+LAUIKit.m in Sources */,
 				E47D61E52C775DD2001648CD /* CustomBubbleView.m in Sources */,
 				E47D61EE2C7C2DB9001648CD /* BubbleModel.m in Sources */,
 				E47D61EB2C788AC8001648CD /* GradientView.m in Sources */,

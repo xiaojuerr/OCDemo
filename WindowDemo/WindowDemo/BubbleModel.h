@@ -17,14 +17,14 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) CGFloat triangleHeight;
 @property (nonatomic, assign) CGFloat triangleWidth;
 @property (nonatomic, strong) NSString *title;
+@property (copy, nonatomic) NSArray *titleExtend;
 @property (nonatomic, assign)  CGFloat cornerRadius;
 //modify 颜色参数
 @property (nonatomic, strong) UIColor *borderLineColor;
-@property (nonatomic, strong) UIColor *contentColor;
 @property (nonatomic, copy) NSArray<UIColor *> *borderLineColors;
 @property (nonatomic, copy) NSArray<UIColor *> *contentColors;
 
-- (instancetype)initWithBorderLineSize:(CGFloat)borderLineSize width:(CGFloat)width height:(CGFloat)height trianglePosition:(CGFloat)trianglePosition triangleHeight:(CGFloat)triangleHeight triangleWidth:(CGFloat)triangleWidth title:(NSString *)title cornerRadius:(CGFloat)cornerRadius borderLineColor:(UIColor *)borderLineColor contentColor:(UIColor *)contentColor;
+- (instancetype)initWithBorderLineSize:(CGFloat)borderLineSize width:(CGFloat)width height:(CGFloat)height trianglePosition:(CGFloat)trianglePosition triangleHeight:(CGFloat)triangleHeight triangleWidth:(CGFloat)triangleWidth titleExtend:(NSArray *)titleExtend cornerRadius:(CGFloat)cornerRadius borderLineColor:(UIColor *)borderLineColor contentColors:(NSArray<UIColor *> *)contentColors;
 @end
 
 NS_ASSUME_NONNULL_END
