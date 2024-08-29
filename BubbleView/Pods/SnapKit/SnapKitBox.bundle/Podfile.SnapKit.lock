@@ -1,0 +1,17 @@
+PODS:
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - SnapKit (from `/Users/yuanzhan/.emas/build/32264776/workspace/SnapKit.podspec`)
+
+EXTERNAL SOURCES:
+  SnapKit:
+    :path: !ruby/object:Pathname
+    path: "/Users/yuanzhan/.emas/build/32264776/workspace/SnapKit.podspec"
+
+SPEC CHECKSUMS:
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: c30b4ff69c06fbeca36361ec3036ffe6e674c752
+
+COCOAPODS: 1.12.1

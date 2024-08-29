@@ -1,0 +1,16 @@
+PODS:
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - SnapKit
+
+SPEC REPOS:
+  https://pod.mtl.alibaba-inc.com/pod-cdn/alibaba-specs/:
+    - SnapKit
+
+SPEC CHECKSUMS:
+  SnapKit: 58a75e493da3c49f0bc20426e5771e7961c5402e
+
+PODFILE CHECKSUM: 9c4b18f3d19ae27675094143a41a852edff2a189
+
+COCOAPODS: 1.11.3
